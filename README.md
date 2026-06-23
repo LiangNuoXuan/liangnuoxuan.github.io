@@ -15,7 +15,7 @@ GR/
 ├── 404.html            # 404 错误页面
 ├── ftpico.jpg          # 网站图标
 ├── .nojekyll           # GitHub Pages 配置文件
-├── LICENSE.txt         # Apache 2.0 许可证
+├── LICENSE             # Apache 2.0 许可证
 ├── docsify/            # Docsify 库文件
 │   ├── docsify@4.js   # Docsify 核心脚本
 │   └── vue.css        # Docsify Vue 主题样式
@@ -59,4 +59,4 @@ GR/
 
 ## 许可证
 
-本项目采用 Apache License 2.0 许可证，详见 [LICENSE.txt](LICENSE.txt)。
+本项目采用 Apache License 2.0 许可证，详见 [LICENSE](LICENSE)。
