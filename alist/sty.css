@@ -1,0 +1,69 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* 自定义字体 */
+@font-face {
+  font-family: "MyTtf";
+  src: url("./MoonStarsKai-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  font-family: "MyTtf", sans-serif;
+}
+
+/*夜间背景图*/
+body.hope-ui-dark {
+  background-color: rgb(32, 36, 37);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)),
+    url("https://api.mmp.cc/api/pcwallpaper?category=cartoon&type=jpg");
+}
+/*白天背景图*/
+body.hope-ui-light {
+  background-image: url("https://api.mmp.cc/api/pcwallpaper?category=cartoon&type=jpg");
+}
+
+/*主列表白天模式透明*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
+  background-color: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(8px); /* 毛玻璃效果的强度 */
+}
+/*主列表夜间模式透明*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
+  background-color: rgb(0 0 0 / 0%) !important;
+  backdrop-filter: blur(8px); /* 毛玻璃效果的强度 */
+}
+
+/*右下角侧边栏按钮透明 第一个是白天 第二个是夜间*/
+.hope-ui-light .hope-c-PJLV-ijgzmFG-css {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
+  background-color: rgb(0 0 0 / 0%) !important;
+}
+
+/*导航条*/
+/*白天模式*/
+.hope-ui-light .hope-c-PJLV-idaeksS-css {
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-radius: var(--hope-radii-xl) !important;
+}
+/*夜间模式*/
+.hope-ui-dark .hope-c-PJLV-idaeksS-css {
+  background-color: rgb(0 0 0 / 0%) !important;
+  border-radius: var(--hope-radii-xl) !important;
+}
+
+/* 最上方 */
+.hope-c-PJLV-ikaMhsQ-css {
+  background-color: rgb(0 0 0 / 0%) !important;
+}
+.hope-c-PJLV-ieTGfmR-css {
+  background-color: rgba(0, 0, 0, 0) !important;
+}

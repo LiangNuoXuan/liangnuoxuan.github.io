@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404</title>
+    <link rel="shortcut icon" href="./ftpico.jpg" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #000;
+        color: #fff;
+        font-size: xx-large;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 字体 -->
+    <span
+      >This page already filed for resignation. No counteroffer could keep
+      it.</span
+    >
+    <!-- 光标 -->
+    <span id="bq">|</span>
+    <script>
+      bl = false;
+      setInterval(() => {
+        document.getElementById("bq").style.color = bl ? "#000" : "#fff";
+        bl = !bl;
+      }, 400);
+    </script>
+  </body>
+</html>
